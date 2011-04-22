@@ -39,6 +39,9 @@ class CurlWrapper
 		$this->exec();
 	}
 	
+	/**
+	* Exec
+	*/
 	private function exec()
 	{
 		$this->result = curl_exec($this->ch);
